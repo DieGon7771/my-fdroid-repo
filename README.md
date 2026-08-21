@@ -1,5 +1,5 @@
 # CloudStream F-Droid repo
-This repository hosts an [F-Droid](https://f-droid.org/) repo for **CloudStream**, both the stable and the pre-release builds.
+This repository mainly hosts an [F-Droid](https://f-droid.org/) repo for **CloudStream**, along with other apps I’m interested in.
 
 ### Apps
 
