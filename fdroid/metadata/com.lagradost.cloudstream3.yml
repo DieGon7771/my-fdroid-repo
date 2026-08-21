@@ -1,0 +1,24 @@
+AuthorName: recloudstream
+Categories:
+    - Multimedia
+    - Internet
+CurrentVersion: 4.8.0
+CurrentVersionCode: 68
+Description: |
+    Cloudstream is an open-source Android application designed for streaming and downloading Movies, TV Shows, and Anime. Rather than hosting media, it relies on a modular extension system with custom providers.
+
+    Key features:
+
+    - Completely ad-free experience
+    - No analytics, telemetry, or user tracking
+    - Offline downloads for local media playback
+    - Full Chromecast support
+    - Integrated bookmarks, history, and episode tracking
+    - Modular extension system for external providers
+    - Optimized interface for both phones and Android TV
+IssueTracker: ""
+License: GPL-3.0
+Name: CloudStream
+SourceCode: https://github.com/recloudstream/cloudstream
+Summary: Open-source Android application for streaming and downloading media.
+WebSite: https://cloudstream.miraheze.org/wiki/Main_Page

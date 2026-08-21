@@ -1,0 +1,850 @@
+{
+  "repo": {
+    "timestamp": 1787325848000,
+    "version": 20002,
+    "name": "My F-Droid Repo",
+    "icon": "icon.png",
+    "address": "https://raw.githubusercontent.com/DieGon7771/my-fdroid-repo/main/fdroid/repo",
+    "description": "F-Droid repository hosting CloudStream, QuickNovel, ec.\n"
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "authorName": "recloudstream",
+      "categories": [
+        "Multimedia",
+        "Internet"
+      ],
+      "suggestedVersionName": "4.8.0",
+      "suggestedVersionCode": "68",
+      "description": "Cloudstream is an open-source Android application designed for streaming and downloading Movies, TV Shows, and Anime. Rather than hosting media, it relies on a modular extension system with custom providers.\n\nKey features:\n\n- Completely ad-free experience\n- No analytics, telemetry, or user tracking\n- Offline downloads for local media playback\n- Full Chromecast support\n- Integrated bookmarks, history, and episode tracking\n- Modular extension system for external providers\n- Optimized interface for both phones and Android TV\n",
+      "license": "GPL-3.0",
+      "name": "CloudStream",
+      "sourceCode": "https://github.com/recloudstream/cloudstream",
+      "summary": "Open-source Android application for streaming and downloading media.",
+      "webSite": "https://cloudstream.miraheze.org/wiki/Main_Page",
+      "added": 1786708134000,
+      "packageName": "com.lagradost.cloudstream3",
+      "lastUpdated": 1786708139000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_Ddr6oob_kIZ66OBXpqKIWKfr5KkDKF3NBp4zRh41od8=.png",
+          "whatsNew": "+ Added intro skip database\n+ Added metadata overlay on TV\n+ Added more external players\n+ Fixed some security issues\n+ Fixed some download issues\n+ Updated filler database\n+ Updated some UI/UX\n+ Internal code changes"
+        }
+      }
+    },
+    {
+      "authorName": "recloudstream",
+      "categories": [
+        "Multimedia",
+        "Internet"
+      ],
+      "changelog": "https://github.com/recloudstream/cloudstream/releases",
+      "suggestedVersionCode": "29758503",
+      "description": "Cloudstream Pre-release is the bleeding-edge version of Cloudstream. It includes the latest features, experimental updates, and bug fixes before they are pushed to the stable release. Suitable for testing and early adopters.\n\nKey features:\n\n- Bleeding-edge features and updates before public release\n- Early access to experimental improvements and fixes\n- Completely ad-free experience\n- No analytics, telemetry, or user tracking\n- Offline downloads for local media playback\n- Full Chromecast support\n- Integrated bookmarks, history, and episode tracking\n- Modular extension system for external providers\n- Optimized interface for both phones and Android TV",
+      "issueTracker": "https://github.com/recloudstream/cloudstream/issues",
+      "license": "GPL-3.0",
+      "name": "CloudStream (Pre-release)",
+      "sourceCode": "https://github.com/recloudstream/cloudstream",
+      "summary": "Pre-release testing build for Cloudstream.",
+      "webSite": "https://cloudstream.miraheze.org/wiki/Main_Page",
+      "added": 1786708116000,
+      "packageName": "com.lagradost.cloudstream3.prerelease",
+      "lastUpdated": 1786708116000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_8tDQHDzSz002WurVgP2vTJoBDoojHp_erCdxOxb6qx4=.png"
+        }
+      }
+    },
+    {
+      "authorName": "FlappyRecreator",
+      "categories": [
+        "Games"
+      ],
+      "suggestedVersionName": "1.4",
+      "suggestedVersionCode": "14",
+      "description": "FlappyB64bitAndroid is a source-available recreation of the original Flappy Bird game, modernized to support 64-bit Android architecture. Designed for smooth performance on newer Android devices where older 32-bit apps are no longer supported, it offers the traditional arcade gameplay without ads or bloatware.\n",
+      "license": "Unknown",
+      "name": "Flappy Bird",
+      "sourceCode": "https://github.com/FlappyRecreator/FlappyB64bitAndroid",
+      "summary": "64-bit Android port and recreation of the classic Flappy Bird game.",
+      "added": 1786794026000,
+      "icon": "com.flappybird.recreation.14.png",
+      "packageName": "com.flappybird.recreation",
+      "lastUpdated": 1786794026000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_yFqPXiJ8VwkAQYWZPoWGR8YxZDlXO4D8a58cFDWcZPI=.png",
+          "phoneScreenshots": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg"
+          ],
+          "whatsNew": "**\ud83d\ude80 Release Version V1.4 is Here! \ud83d\ude80**\n\n**\u2705 Stable & Ready to Play**\nV1.4 delivers a stable experience and is ready for you to enjoy!  \nYes, there may still be **a few odd bugs or quirks**, but that\u2019s expected for any recreation project.\n\n**\ud83d\udee0 Next Up: V1.5 Development**\nWork has already begun on **Version 1.5**, which will introduce **new features** and aim to **further improve stability**.\n\n**\ud83d\udc1e Help Us Improve**\nIf you encounter any issues, please **report them via the Issues tab**.  \nThe more *"
+        }
+      }
+    },
+    {
+      "authorName": "LagradOst",
+      "categories": [
+        "Books",
+        "Reading"
+      ],
+      "suggestedVersionName": "3.7.5",
+      "suggestedVersionCode": "56",
+      "description": "QuickNovel is an open-source Android application designed for downloading, organizing, and reading light novels and web novels directly on your device. Rather than hosting content, it utilizes a modular web scraping system to fetch stories from various online sources and convert them into readable formats or EPUB/PDF files.\n\nKey features:\n\n- Download novels for offline reading in EPUB or PDF formats\n- Built-in customizable reader with text sizing, fonts, and night mode\n- Integrated online translation support for foreign language sources\n- Advanced search and filtering across multiple provider sources\n- Built-in Text-To-Speech (TTS) integration for listening on the go\n- Organized library management with bookmarks, history, and reading progress\n- Completely ad-free and open-source experience\n- Optimized interface for Android phones and tablets\n",
+      "license": "GPL-3.0",
+      "name": "QuickNovel",
+      "sourceCode": "https://github.com/LagradOst/QuickNovel",
+      "summary": "Open-source Android application for downloading and reading light novels and ...",
+      "added": 1786736195000,
+      "packageName": "com.lagradost.quicknovel",
+      "lastUpdated": 1787110314000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_VxlngCQBNEOZ8PEhuzN5LMjSmZeyw4VS8Hq-p_zA__k=.png",
+          "phoneScreenshots": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg"
+          ],
+          "whatsNew": "+ Changed storage API\n+ Added separate paths for Epub, Backups and Logcat, (old download path have to be re-picked if you have already specified one)\n+ Changed download pause -> stop for better UX\n+ Fixed error loading epub and similar issues\n+ Fixed and improved epub generation for external readers by TJMolina\n+ Fixed LibRead by TJMolina"
+        }
+      }
+    }
+  ],
+  "packages": {
+    "com.flappybird.recreation": [
+      {
+        "added": 1786794026000,
+        "apkName": "flappybird_V1.4.apk",
+        "hash": "e21580cc835a9e96e57a7d01550d535983e1deda0f94c5f07a5c4709328d3172",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.flappybird.recreation",
+        "sig": "c3ae21ed4516420d668b743760bf02ac",
+        "signer": "a3875569b783a8f7e42dc3f3bfd0f1a0dabcc8ae2976720a95a8e66026579618",
+        "size": 8224296,
+        "targetSdkVersion": 35,
+        "versionCode": 14,
+        "versionName": "1.4"
+      }
+    ],
+    "com.lagradost.cloudstream3": [
+      {
+        "added": 1786708137000,
+        "apkName": "cloudstream_v4.7.0.apk",
+        "hash": "3fdbde37d50fea40f708fb6ca3051ac3e6d3751ead279813e38a3805dc0c6529",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.lagradost.cloudstream3",
+        "sig": "a084adc2b0d2548cc70da68ccf2e8c30",
+        "signer": "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7",
+        "size": 70477907,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.providers.tv.permission.WRITE_EPG_DATA",
+            null
+          ],
+          [
+            "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "com.android.providers.tv.permission.READ_EPG_DATA",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.REORDER_TASKS",
+            null
+          ]
+        ],
+        "versionCode": 68,
+        "versionName": "4.7.0"
+      },
+      {
+        "added": 1786708139000,
+        "apkName": "cloudstream_v4.8.0.apk",
+        "hash": "348c3f09551f2dda4fba25ba348928ee7b82a47ce98a6b1eae3295d4c127877c",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.lagradost.cloudstream3",
+        "sig": "a084adc2b0d2548cc70da68ccf2e8c30",
+        "signer": "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7",
+        "size": 72089111,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.providers.tv.permission.WRITE_EPG_DATA",
+            null
+          ],
+          [
+            "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "com.android.providers.tv.permission.READ_EPG_DATA",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 68,
+        "versionName": "4.8.0"
+      },
+      {
+        "added": 1786708134000,
+        "apkName": "cloudstream_v4.6.0.apk",
+        "hash": "9ca8acb601494a2735179206407ebb93de4d593b444894f454fe3237b6c209cb",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.lagradost.cloudstream3",
+        "sig": "a084adc2b0d2548cc70da68ccf2e8c30",
+        "signer": "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7",
+        "size": 64803052,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.providers.tv.permission.WRITE_EPG_DATA",
+            null
+          ],
+          [
+            "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "com.android.providers.tv.permission.READ_EPG_DATA",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.REORDER_TASKS",
+            null
+          ]
+        ],
+        "versionCode": 67,
+        "versionName": "4.6.0"
+      }
+    ],
+    "com.lagradost.cloudstream3.prerelease": [
+      {
+        "added": 1786708116000,
+        "apkName": "cloudstream-prerelease_pre-release.apk",
+        "hash": "3edee5eaf6b690353c929a9f76cc04d95315ab6a8f80f49fced04aff1ec446cf",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.lagradost.cloudstream3.prerelease",
+        "sig": "9289624423ef62e7f6b2bcf17c387b74",
+        "signer": "c2755b1fbc6cefa6aa20739f527d09246525618a7e16edb2e2171c2c9de70c72",
+        "size": 72149100,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.android.providers.tv.permission.WRITE_EPG_DATA",
+            null
+          ],
+          [
+            "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "com.android.providers.tv.permission.READ_EPG_DATA",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.lagradost.cloudstream3.prerelease.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 29758503,
+        "versionName": "4.8.0-PRE"
+      }
+    ],
+    "com.lagradost.quicknovel": [
+      {
+        "added": 1786736195000,
+        "apkName": "quicknovel_v3.7.2.apk",
+        "hash": "0fb2fdacd55818960ec5d10e49031e49342ea5756a25f04e87747037c7460e54",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.lagradost.quicknovel",
+        "sig": "a084adc2b0d2548cc70da68ccf2e8c30",
+        "signer": "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7",
+        "size": 91145541,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 56,
+        "versionName": "3.7.2"
+      },
+      {
+        "added": 1786736197000,
+        "apkName": "quicknovel_v3.7.3.apk",
+        "hash": "ce3fe9930eeaa37f3b7425fdd4023c154032321c311a6a33b9071ef98910e6bb",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.lagradost.quicknovel",
+        "sig": "a084adc2b0d2548cc70da68ccf2e8c30",
+        "signer": "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7",
+        "size": 91358624,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 56,
+        "versionName": "3.7.3"
+      },
+      {
+        "added": 1786736198000,
+        "apkName": "quicknovel_v3.7.4.apk",
+        "hash": "5f2a56827bffe5d56841dee5063c01ba7068540bf738bf7bb52eb78bede579af",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.lagradost.quicknovel",
+        "sig": "a084adc2b0d2548cc70da68ccf2e8c30",
+        "signer": "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7",
+        "size": 91375014,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 56,
+        "versionName": "3.7.4"
+      },
+      {
+        "added": 1787110314000,
+        "apkName": "quicknovel_v3.7.5.apk",
+        "hash": "995e9c7c16573372769c341d465cc0d7948e85628835f7e0502c677031801138",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.lagradost.quicknovel",
+        "sig": "a084adc2b0d2548cc70da68ccf2e8c30",
+        "signer": "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7",
+        "size": 91719336,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 56,
+        "versionName": "3.7.5"
+      }
+    ]
+  }
+}

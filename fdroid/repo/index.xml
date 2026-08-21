@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fdroid>
+	<repo icon="icon.png" name="My F-Droid Repo" pubkey="3082059d30820385a00302010202080229c1717a6b9999300d06092a864886f70d01010c0500307c310b30090603550406130249543110300e06035504081307556e6b6e6f776e3110300e06035504071307556e6b6e6f776e31143012060355040a130b436c6f756453747265616d3110300e060355040b1307462d44726f69643121301f06035504031318436c6f756453747265616d20462d44726f6964205265706f3020170d3236303832313135303733315a180f32303534303130363135303733315a307c310b30090603550406130249543110300e06035504081307556e6b6e6f776e3110300e06035504071307556e6b6e6f776e31143012060355040a130b436c6f756453747265616d3110300e060355040b1307462d44726f69643121301f06035504031318436c6f756453747265616d20462d44726f6964205265706f30820222300d06092a864886f70d01010105000382020f003082020a0282020100a22616ab9d2df2d577c0f21d838fc5f357769edc6d0358f4fd5bd76e25fbd254e1ddefd494764cc265015bdc88674cd77317e9f8ba2dc9d096c20a8a8e614171708e6760b913416862dba57d0431c3639c7c09750138ae8370a8ce4e0d4b98c4d4796c469d0959c924eb1b90e6385950ed85cfa390f530b452ff80db85ebe9fb6a68aaaf40108b7d8280714140abc87e8fd991b387c78c7b17779217a87e0f22eeeacf793846c177ebe38131253eeeea134cf6a6589b6549b9921e9aeea37efb4684e5cf828f563c10f77f9e890e82dd3147a178fffe2de0fcb5c005f92dc9a96056f4e14c6a1bfe4ed6d341a2d83656694fe4805c5a7e99370533475ec1586aae3fbf6919d21b50be4e276be5aebbd677b44982a4da74d1787316aec2fb63bacd88630627cbd253a023146dcd34b8b2c27f9b40aa634e568b330bb15ebf5dd47aea16dd5f96a5bd4f10b06ffa09bf0b6ef81813210e39d791f128a6572d0217c48189977863ee45af8c3b4e3b161397af83d08ee1764a3c7fe86cd52859c8a5a81bcf16ea3e12f43681267a82fc3ff9919faf2bf8c1fa7c600b2cb4403abc80c9f623b8a9229e68d43771bd364488e922a35a23741f87e304231cdbca4d48a87728073b95f4bbdd22a300ad06887423de476f10dc59dd33a86e3818051d510fc28a139f03826694058e4f0cf5482adae0d6a1fac6d106d5c16e3e5332ad3c010203010001a321301f301d0603551d0e0416041423065ce196622d5459839f716dc25432e3ed6e15300d06092a864886f70d01010c05000382020100304a56ca00110c0956abae76f20b97d490ef732997acc0196b938eafae0223faae5df9875c722dda3e4f22143c6e6c246a1b27826bf2b25f576245dfeb2ad25f3a8c499de4f1c76f6e276b3eb30569007d0b9cfd3486a48734fb77785ebd51964b526317efaa1dc43589061d97749bdf524f60dd98ef668a32ee07d25d7dd91d542098bd1542a72b4f11eddef43c943d38c5e85f675c5f27ee631dc3ccccb5ddba6d0f5f8c2b8e30930ceb6ae2a5606ed6a28e90b695a7af7e21ffa3553c61366d793efaad76a057afc67c7f3faf39599f4880bb68dc57e46682883ca107a3bffc8d2105f25fd02236309bde623c66f22888bd1044ae3ba9f0c1b28d0e7f3190ecdf5246006d5b0d7eca311666a3534bbaa75ba227765bfe04dc19007fd4cdf938988ba7310a0e498dfc8cb2009783862661120b18128c803f7da55ca8ef014aeac7a1c33d70b4ee88ad80732adc544bf29c4b95f8a10880e41486983143322a862e372288fe8ce72f34671c372e178278ee2a29b796c8f3be8b8e716e6ca655d9b1adfbe28148fdb8fad8c8ff213abcfa9942c3e3b7526fc8ffa3553142f6c7f377e0a681be5ac97c39d7a3ac9eaa0037371fbf9f3ddff52daf750b1705ccb1406abd8b34abe7f88c70c39e30a97b5184b78f00e07895ed926d0bf4b349399239462f967c95236dfec5c0f8546d230dc283be22dccfc8f9b20903d71bb9fe17" timestamp="1787325848" url="https://raw.githubusercontent.com/DieGon7771/my-fdroid-repo/main/fdroid/repo" version="20002">
+		<description>F-Droid repository hosting CloudStream, QuickNovel, ec.
+</description>
+	</repo>
+	<application id="com.lagradost.cloudstream3">
+		<id>com.lagradost.cloudstream3</id>
+		<added>2026-08-14</added>
+		<lastupdated>2026-08-14</lastupdated>
+		<name>CloudStream</name>
+		<summary>Open-source Android application for streaming and downloading media.</summary>
+		<desc>Cloudstream is an open-source Android application designed for streaming and downloading Movies, TV Shows, and Anime. Rather than hosting media, it relies on a modular extension system with custom providers.
+
+Key features:
+
+- Completely ad-free experience
+- No analytics, telemetry, or user tracking
+- Offline downloads for local media playback
+- Full Chromecast support
+- Integrated bookmarks, history, and episode tracking
+- Modular extension system for external providers
+- Optimized interface for both phones and Android TV
+</desc>
+		<license>GPL-3.0</license>
+		<categories>Multimedia,Internet</categories>
+		<category>Multimedia</category>
+		<web>https://cloudstream.miraheze.org/wiki/Main_Page</web>
+		<source>https://github.com/recloudstream/cloudstream</source>
+		<tracker></tracker>
+		<author>recloudstream</author>
+		<marketversion>4.8.0</marketversion>
+		<marketvercode>68</marketvercode>
+		<package>
+			<version>4.7.0</version>
+			<versioncode>68</versioncode>
+			<apkname>cloudstream_v4.7.0.apk</apkname>
+			<hash type="sha256">3fdbde37d50fea40f708fb6ca3051ac3e6d3751ead279813e38a3805dc0c6529</hash>
+			<size>70477907</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,INTERNET,MANAGE_EXTERNAL_STORAGE,MODIFY_AUDIO_SETTINGS,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REORDER_TASKS,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,REQUEST_INSTALL_PACKAGES,UPDATE_PACKAGES_WITHOUT_USER_ACTION,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.providers.tv.permission.READ_EPG_DATA,com.android.providers.tv.permission.WRITE_EPG_DATA,com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>4.6.0</version>
+			<versioncode>67</versioncode>
+			<apkname>cloudstream_v4.6.0.apk</apkname>
+			<hash type="sha256">9ca8acb601494a2735179206407ebb93de4d593b444894f454fe3237b6c209cb</hash>
+			<size>64803052</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>35</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,INTERNET,MANAGE_EXTERNAL_STORAGE,MODIFY_AUDIO_SETTINGS,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REORDER_TASKS,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,REQUEST_INSTALL_PACKAGES,UPDATE_PACKAGES_WITHOUT_USER_ACTION,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.providers.tv.permission.READ_EPG_DATA,com.android.providers.tv.permission.WRITE_EPG_DATA,com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="com.lagradost.cloudstream3.prerelease">
+		<id>com.lagradost.cloudstream3.prerelease</id>
+		<added>2026-08-14</added>
+		<lastupdated>2026-08-14</lastupdated>
+		<name>CloudStream (Pre-release)</name>
+		<summary>Pre-release testing build for Cloudstream.</summary>
+		<desc>Cloudstream Pre-release is the bleeding-edge version of Cloudstream. It includes the latest features, experimental updates, and bug fixes before they are pushed to the stable release. Suitable for testing and early adopters.
+
+Key features:
+
+- Bleeding-edge features and updates before public release
+- Early access to experimental improvements and fixes
+- Completely ad-free experience
+- No analytics, telemetry, or user tracking
+- Offline downloads for local media playback
+- Full Chromecast support
+- Integrated bookmarks, history, and episode tracking
+- Modular extension system for external providers
+- Optimized interface for both phones and Android TV</desc>
+		<license>GPL-3.0</license>
+		<categories>Multimedia,Internet</categories>
+		<category>Multimedia</category>
+		<web>https://cloudstream.miraheze.org/wiki/Main_Page</web>
+		<source>https://github.com/recloudstream/cloudstream</source>
+		<tracker>https://github.com/recloudstream/cloudstream/issues</tracker>
+		<changelog>https://github.com/recloudstream/cloudstream/releases</changelog>
+		<author>recloudstream</author>
+		<marketversion></marketversion>
+		<marketvercode>29758503</marketvercode>
+		<package>
+			<version>4.8.0-PRE</version>
+			<versioncode>29758503</versioncode>
+			<apkname>cloudstream-prerelease_pre-release.apk</apkname>
+			<hash type="sha256">3edee5eaf6b690353c929a9f76cc04d95315ab6a8f80f49fced04aff1ec446cf</hash>
+			<size>72149100</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>9289624423ef62e7f6b2bcf17c387b74</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,INTERNET,MANAGE_EXTERNAL_STORAGE,MODIFY_AUDIO_SETTINGS,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,REQUEST_INSTALL_PACKAGES,UPDATE_PACKAGES_WITHOUT_USER_ACTION,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.providers.tv.permission.READ_EPG_DATA,com.android.providers.tv.permission.WRITE_EPG_DATA,com.lagradost.cloudstream3.prerelease.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="com.flappybird.recreation">
+		<id>com.flappybird.recreation</id>
+		<added>2026-08-15</added>
+		<lastupdated>2026-08-15</lastupdated>
+		<name>Flappy Bird</name>
+		<summary>64-bit Android port and recreation of the classic Flappy Bird game.</summary>
+		<icon>com.flappybird.recreation.14.png</icon>
+		<desc>FlappyB64bitAndroid is a source-available recreation of the original Flappy Bird game, modernized to support 64-bit Android architecture. Designed for smooth performance on newer Android devices where older 32-bit apps are no longer supported, it offers the traditional arcade gameplay without ads or bloatware.
+</desc>
+		<license>Unknown</license>
+		<categories>Games</categories>
+		<category>Games</category>
+		<web></web>
+		<source>https://github.com/FlappyRecreator/FlappyB64bitAndroid</source>
+		<tracker></tracker>
+		<author>FlappyRecreator</author>
+		<marketversion>1.4</marketversion>
+		<marketvercode>14</marketvercode>
+		<package>
+			<version>1.4</version>
+			<versioncode>14</versioncode>
+			<apkname>flappybird_V1.4.apk</apkname>
+			<hash type="sha256">e21580cc835a9e96e57a7d01550d535983e1deda0f94c5f07a5c4709328d3172</hash>
+			<size>8224296</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>35</targetSdkVersion>
+			<added>2026-08-15</added>
+			<sig>c3ae21ed4516420d668b743760bf02ac</sig>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="com.lagradost.quicknovel">
+		<id>com.lagradost.quicknovel</id>
+		<added>2026-08-14</added>
+		<lastupdated>2026-08-19</lastupdated>
+		<name>QuickNovel</name>
+		<summary>Open-source Android application for downloading and reading light novels and ...</summary>
+		<desc>QuickNovel is an open-source Android application designed for downloading, organizing, and reading light novels and web novels directly on your device. Rather than hosting content, it utilizes a modular web scraping system to fetch stories from various online sources and convert them into readable formats or EPUB/PDF files.
+
+Key features:
+
+- Download novels for offline reading in EPUB or PDF formats
+- Built-in customizable reader with text sizing, fonts, and night mode
+- Integrated online translation support for foreign language sources
+- Advanced search and filtering across multiple provider sources
+- Built-in Text-To-Speech (TTS) integration for listening on the go
+- Organized library management with bookmarks, history, and reading progress
+- Completely ad-free and open-source experience
+- Optimized interface for Android phones and tablets
+</desc>
+		<license>GPL-3.0</license>
+		<categories>Books,Reading</categories>
+		<category>Books</category>
+		<web></web>
+		<source>https://github.com/LagradOst/QuickNovel</source>
+		<tracker></tracker>
+		<author>LagradOst</author>
+		<marketversion>3.7.5</marketversion>
+		<marketvercode>56</marketvercode>
+		<package>
+			<version>3.7.2</version>
+			<versioncode>56</versioncode>
+			<apkname>quicknovel_v3.7.2.apk</apkname>
+			<hash type="sha256">0fb2fdacd55818960ec5d10e49031e49342ea5756a25f04e87747037c7460e54</hash>
+			<size>91145541</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>37</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,FOREGROUND_SERVICE_MEDIA_PLAYBACK,INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REQUEST_INSTALL_PACKAGES,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+</fdroid>
