@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/DieGon7771/my-fdroid-repo/main/fdroid/repo",
-    "timestamp": 1787325848000,
+    "timestamp": 1787327364000,
     "categories": {
       "Books": {
         "name": {
@@ -564,7 +564,7 @@
     },
     "com.lagradost.quicknovel": {
       "metadata": {
-        "added": 1786736195000,
+        "added": 1786736197000,
         "categories": [
           "Books",
           "Reading"
@@ -623,71 +623,6 @@
         "preferredSigner": "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
       },
       "versions": {
-        "0fb2fdacd55818960ec5d10e49031e49342ea5756a25f04e87747037c7460e54": {
-          "added": 1786736195000,
-          "file": {
-            "name": "/quicknovel_v3.7.2.apk",
-            "sha256": "0fb2fdacd55818960ec5d10e49031e49342ea5756a25f04e87747037c7460e54",
-            "size": 91145541
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "3.7.2",
-            "versionCode": 56,
-            "usesSdk": {
-              "minSdkVersion": 23,
-              "targetSdkVersion": 37
-            },
-            "signer": {
-              "sha256": [
-                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
         "ce3fe9930eeaa37f3b7425fdd4023c154032321c311a6a33b9071ef98910e6bb": {
           "added": 1786736197000,
           "file": {

@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1787325848000,
+    "timestamp": 1787327364000,
     "version": 20002,
     "name": "My F-Droid Repo",
     "icon": "icon.png",
@@ -103,7 +103,7 @@
       "name": "QuickNovel",
       "sourceCode": "https://github.com/LagradOst/QuickNovel",
       "summary": "Open-source Android application for downloading and reading light novels and ...",
-      "added": 1786736195000,
+      "added": 1786736197000,
       "packageName": "com.lagradost.quicknovel",
       "lastUpdated": 1787110314000,
       "localized": {
@@ -565,76 +565,6 @@
       }
     ],
     "com.lagradost.quicknovel": [
-      {
-        "added": 1786736195000,
-        "apkName": "quicknovel_v3.7.2.apk",
-        "hash": "0fb2fdacd55818960ec5d10e49031e49342ea5756a25f04e87747037c7460e54",
-        "hashType": "sha256",
-        "minSdkVersion": 23,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a",
-          "x86",
-          "x86_64"
-        ],
-        "packageName": "com.lagradost.quicknovel",
-        "sig": "a084adc2b0d2548cc70da68ccf2e8c30",
-        "signer": "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7",
-        "size": 91145541,
-        "targetSdkVersion": 37,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.REQUEST_INSTALL_PACKAGES",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 56,
-        "versionName": "3.7.2"
-      },
       {
         "added": 1786736197000,
         "apkName": "quicknovel_v3.7.3.apk",
