@@ -1,3 +1,3 @@
-+ Fixed duplicate epub bug
-+ Fixed minor UI bugs
-+ Fixed some providers by TJMolina
++ Providers fixed by TJMolina
++ Added option to import many books at the same time
++ Fixed some minor download issues. If you are still having problems with duplicate files select a custom file path!

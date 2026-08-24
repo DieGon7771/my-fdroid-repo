@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/DieGon7771/my-fdroid-repo/main/fdroid/repo",
-    "timestamp": 1787456331000,
+    "timestamp": 1787542926000,
     "categories": {
       "Books": {
         "name": {
@@ -471,12 +471,12 @@
         "preferredSigner": "c2755b1fbc6cefa6aa20739f527d09246525618a7e16edb2e2171c2c9de70c72"
       },
       "versions": {
-        "3edee5eaf6b690353c929a9f76cc04d95315ab6a8f80f49fced04aff1ec446cf": {
+        "6a89d1d7869023df88d28be232026f05e11a6038e1d634f2e2e0cef21a06d5d0": {
           "added": 1786708116000,
           "file": {
             "name": "/cloudstream-prerelease_pre-release.apk",
-            "sha256": "3edee5eaf6b690353c929a9f76cc04d95315ab6a8f80f49fced04aff1ec446cf",
-            "size": 72149100
+            "sha256": "6a89d1d7869023df88d28be232026f05e11a6038e1d634f2e2e0cef21a06d5d0",
+            "size": 72149622
           },
           "manifest": {
             "nativecode": [
@@ -486,7 +486,7 @@
               "x86_64"
             ],
             "versionName": "4.8.0-PRE",
-            "versionCode": 29758503,
+            "versionCode": 29791522,
             "usesSdk": {
               "minSdkVersion": 23,
               "targetSdkVersion": 36
@@ -569,7 +569,7 @@
           "Books",
           "Reading"
         ],
-        "lastUpdated": 1787369312000,
+        "lastUpdated": 1787542918000,
         "license": "GPL-3.0",
         "sourceCode": "https://github.com/LagradOst/QuickNovel",
         "screenshots": {
@@ -833,6 +833,71 @@
               "x86_64"
             ],
             "versionName": "3.7.6",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "8354c1a5f361f381456c90ae0efa04fb8c07b358ad900ca4d11aa85a9cc19d21": {
+          "added": 1787542918000,
+          "file": {
+            "name": "/quicknovel_v3.7.7.apk",
+            "sha256": "8354c1a5f361f381456c90ae0efa04fb8c07b358ad900ca4d11aa85a9cc19d21",
+            "size": 91739732
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.7.7",
             "versionCode": 56,
             "usesSdk": {
               "minSdkVersion": 23,

@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1787456331000,
+    "timestamp": 1787542926000,
     "version": 20002,
     "name": "My F-Droid Repo",
     "icon": "icon.png",
@@ -43,7 +43,7 @@
         "Internet"
       ],
       "changelog": "https://github.com/recloudstream/cloudstream/releases",
-      "suggestedVersionCode": "29758503",
+      "suggestedVersionCode": "29791522",
       "description": "Cloudstream Pre-release is the bleeding-edge version of Cloudstream. It includes the latest features, experimental updates, and bug fixes before they are pushed to the stable release. Suitable for testing and early adopters.\n\nKey features:\n\n- Bleeding-edge features and updates before public release\n- Early access to experimental improvements and fixes\n- Completely ad-free experience\n- No analytics, telemetry, or user tracking\n- Offline downloads for local media playback\n- Full Chromecast support\n- Integrated bookmarks, history, and episode tracking\n- Modular extension system for external providers\n- Optimized interface for both phones and Android TV",
       "issueTracker": "https://github.com/recloudstream/cloudstream/issues",
       "license": "GPL-3.0",
@@ -96,7 +96,7 @@
         "Books",
         "Reading"
       ],
-      "suggestedVersionName": "3.7.6",
+      "suggestedVersionName": "3.7.7",
       "suggestedVersionCode": "56",
       "description": "QuickNovel is an open-source Android application designed for downloading, organizing, and reading light novels and web novels directly on your device. Rather than hosting content, it utilizes a modular web scraping system to fetch stories from various online sources and convert them into readable formats or EPUB/PDF files.\n\nKey features:\n\n- Download novels for offline reading in EPUB or PDF formats\n- Built-in customizable reader with text sizing, fonts, and night mode\n- Integrated online translation support for foreign language sources\n- Advanced search and filtering across multiple provider sources\n- Built-in Text-To-Speech (TTS) integration for listening on the go\n- Organized library management with bookmarks, history, and reading progress\n- Completely ad-free and open-source experience\n- Optimized interface for Android phones and tablets\n",
       "license": "GPL-3.0",
@@ -105,7 +105,7 @@
       "summary": "Open-source Android application for downloading and reading light novels and ...",
       "added": 1786736197000,
       "packageName": "com.lagradost.quicknovel",
-      "lastUpdated": 1787369312000,
+      "lastUpdated": 1787542918000,
       "localized": {
         "en-US": {
           "icon": "icon_VxlngCQBNEOZ8PEhuzN5LMjSmZeyw4VS8Hq-p_zA__k=.png",
@@ -116,7 +116,7 @@
             "4.jpg",
             "5.jpg"
           ],
-          "whatsNew": "+ Fixed duplicate epub bug\n+ Fixed minor UI bugs\n+ Fixed some providers by TJMolina"
+          "whatsNew": "+ Providers fixed by TJMolina\n+ Added option to import many books at the same time\n+ Fixed some minor download issues. If you are still having problems with duplicate files select a custom file path!"
         }
       }
     }
@@ -464,7 +464,7 @@
       {
         "added": 1786708116000,
         "apkName": "cloudstream-prerelease_pre-release.apk",
-        "hash": "3edee5eaf6b690353c929a9f76cc04d95315ab6a8f80f49fced04aff1ec446cf",
+        "hash": "6a89d1d7869023df88d28be232026f05e11a6038e1d634f2e2e0cef21a06d5d0",
         "hashType": "sha256",
         "minSdkVersion": 23,
         "nativecode": [
@@ -476,7 +476,7 @@
         "packageName": "com.lagradost.cloudstream3.prerelease",
         "sig": "9289624423ef62e7f6b2bcf17c387b74",
         "signer": "c2755b1fbc6cefa6aa20739f527d09246525618a7e16edb2e2171c2c9de70c72",
-        "size": 72149100,
+        "size": 72149622,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -560,7 +560,7 @@
             null
           ]
         ],
-        "versionCode": 29758503,
+        "versionCode": 29791522,
         "versionName": "4.8.0-PRE"
       }
     ],
@@ -844,6 +844,76 @@
         ],
         "versionCode": 56,
         "versionName": "3.7.6"
+      },
+      {
+        "added": 1787542918000,
+        "apkName": "quicknovel_v3.7.7.apk",
+        "hash": "8354c1a5f361f381456c90ae0efa04fb8c07b358ad900ca4d11aa85a9cc19d21",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.lagradost.quicknovel",
+        "sig": "a084adc2b0d2548cc70da68ccf2e8c30",
+        "signer": "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7",
+        "size": 91739732,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 56,
+        "versionName": "3.7.7"
       }
     ]
   }
