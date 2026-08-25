@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/DieGon7771/my-fdroid-repo/main/fdroid/repo",
-    "timestamp": 1787542926000,
+    "timestamp": 1787628954000,
     "categories": {
       "Books": {
         "name": {
@@ -569,7 +569,7 @@
           "Books",
           "Reading"
         ],
-        "lastUpdated": 1787542918000,
+        "lastUpdated": 1787628944000,
         "license": "GPL-3.0",
         "sourceCode": "https://github.com/LagradOst/QuickNovel",
         "screenshots": {
@@ -898,6 +898,71 @@
               "x86_64"
             ],
             "versionName": "3.7.7",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "7c806b28dc10b844dad109f6d24e796c3455dacbe278ff23d80b6b15c146a5d5": {
+          "added": 1787628944000,
+          "file": {
+            "name": "/quicknovel_v3.7.8.apk",
+            "sha256": "7c806b28dc10b844dad109f6d24e796c3455dacbe278ff23d80b6b15c146a5d5",
+            "size": 91739732
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.7.8",
             "versionCode": 56,
             "usesSdk": {
               "minSdkVersion": 23,
