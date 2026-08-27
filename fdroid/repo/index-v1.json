@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1787715752000,
+    "timestamp": 1787836325000,
     "version": 20002,
     "name": "My F-Droid Repo",
     "icon": "icon.png",
@@ -43,7 +43,7 @@
         "Internet"
       ],
       "changelog": "https://github.com/recloudstream/cloudstream/releases",
-      "suggestedVersionCode": "29791522",
+      "suggestedVersionCode": "29796230",
       "description": "Cloudstream Pre-release is the bleeding-edge version of Cloudstream. It includes the latest features, experimental updates, and bug fixes before they are pushed to the stable release. Suitable for testing and early adopters.\n\nKey features:\n\n- Bleeding-edge features and updates before public release\n- Early access to experimental improvements and fixes\n- Completely ad-free experience\n- No analytics, telemetry, or user tracking\n- Offline downloads for local media playback\n- Full Chromecast support\n- Integrated bookmarks, history, and episode tracking\n- Modular extension system for external providers\n- Optimized interface for both phones and Android TV",
       "issueTracker": "https://github.com/recloudstream/cloudstream/issues",
       "license": "GPL-3.0",
@@ -464,7 +464,7 @@
       {
         "added": 1786708116000,
         "apkName": "cloudstream-prerelease_pre-release.apk",
-        "hash": "6a89d1d7869023df88d28be232026f05e11a6038e1d634f2e2e0cef21a06d5d0",
+        "hash": "ffe3d7735f6059bd6754668401f7d4a7f9740c245a31b375dad2e4d2c03a23bd",
         "hashType": "sha256",
         "minSdkVersion": 23,
         "nativecode": [
@@ -476,7 +476,7 @@
         "packageName": "com.lagradost.cloudstream3.prerelease",
         "sig": "9289624423ef62e7f6b2bcf17c387b74",
         "signer": "c2755b1fbc6cefa6aa20739f527d09246525618a7e16edb2e2171c2c9de70c72",
-        "size": 72149622,
+        "size": 72150585,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -560,7 +560,7 @@
             null
           ]
         ],
-        "versionCode": 29791522,
+        "versionCode": 29796230,
         "versionName": "4.8.0-PRE"
       }
     ],
