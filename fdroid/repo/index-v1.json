@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1790586074000,
+    "timestamp": 1790672854000,
     "version": 20002,
     "name": "My F-Droid Repo",
     "icon": "icon.png",
@@ -464,7 +464,7 @@
       {
         "added": 1786708116000,
         "apkName": "cloudstream-prerelease_pre-release.apk",
-        "hash": "65e29046fbb9020750745c9be041257df270cc2d0dbeb92f4767eee84c8693d7",
+        "hash": "cecd8cb1bb0321ed721f743e1a2695d12a32c3cdef200e2aec0e24ea9cb9e7f9",
         "hashType": "sha256",
         "minSdkVersion": 23,
         "nativecode": [
@@ -476,7 +476,7 @@
         "packageName": "com.lagradost.cloudstream3.prerelease",
         "sig": "9289624423ef62e7f6b2bcf17c387b74",
         "signer": "c2755b1fbc6cefa6aa20739f527d09246525618a7e16edb2e2171c2c9de70c72",
-        "size": 75549229,
+        "size": 75549638,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
