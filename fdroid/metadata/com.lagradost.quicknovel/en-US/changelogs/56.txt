@@ -1,3 +1,5 @@
-+ Fixes backwards compatibility for scoped storage. No more duplicate files.
-+ Added more emojis
-+ Removed LightNovelWorld as the site no longer exists
++ Provider fixes by TJMolina
++ Minor UI changes
++ Added outline for stub
++ Fixed stop button on downloads
++ A lot of internal code changes
