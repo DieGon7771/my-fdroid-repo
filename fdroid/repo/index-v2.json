@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/DieGon7771/my-fdroid-repo/main/fdroid/repo",
-    "timestamp": 1791965173000,
+    "timestamp": 1792050423000,
     "categories": {
       "Books": {
         "name": {
@@ -471,12 +471,12 @@
         "preferredSigner": "c2755b1fbc6cefa6aa20739f527d09246525618a7e16edb2e2171c2c9de70c72"
       },
       "versions": {
-        "07a84bfb7687346a7108af464f0a7afc3bd8f639318c890c7a3b3d05434ccf19": {
+        "84efe1c8502d80b75d447ec00b1e193b9189e7b8465989dc08ab97e1c8fe1b85": {
           "added": 1786708116000,
           "file": {
             "name": "/cloudstream-prerelease_pre-release.apk",
-            "sha256": "07a84bfb7687346a7108af464f0a7afc3bd8f639318c890c7a3b3d05434ccf19",
-            "size": 75868375
+            "sha256": "84efe1c8502d80b75d447ec00b1e193b9189e7b8465989dc08ab97e1c8fe1b85",
+            "size": 75908817
           },
           "manifest": {
             "nativecode": [
